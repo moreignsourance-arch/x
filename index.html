@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Download App</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background: #020617;
+      padding: 40px;
+      border-radius: 16px;
+      text-align: center;
+      width: 95%;
+      max-width: 450px;
+      box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    }
+
+    h1 {
+      margin-bottom: 15px;
+      font-size: 34px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 18px;
+      opacity: 0.9;
+      margin: 10px 0;
+    }
+
+    a.button {
+      display: block;
+      width: 100%;
+      margin-top: 30px;
+      padding: 22px;
+      font-size: 22px;
+      background: #22c55e;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 12px;
+      transition: 0.3s ease;
+    }
+
+    a.button:hover {
+      background: #16a34a;
+      transform: scale(1.03);
+    }
+
+    .version {
+      margin-top: 20px;
+      font-size: 16px;
+      opacity: 0.7;
+    }
+
+    /* Mobile improvement */
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      a.button {
+        font-size: 20px;
+        padding: 20px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>mParivahan</h1>
+    <p>Download the latest version</p>
+
+    <!-- APK DOWNLOAD LINK -->
+    <a class="button" href="https://github.com/moreignsourance-arch/x/releases/download/v1.0.0/mParivahan.apk">
+      Download APK
+    </a>
+
+    <p class="version">
+      Version v1.0.0
+    </p>
+  </div>
+</body>
+</html>
+
